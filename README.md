@@ -25,6 +25,7 @@ Este projeto é uma atividade prática solicitada pela equipe de estágio da Com
    - Configurar para executar o script a cada 5 minutos.
      ```bash
      crontab -e
+     */5 * * * * /bin/bash /home/iago/atividadeNginx/script.sh
      
 ## Requisito
 
